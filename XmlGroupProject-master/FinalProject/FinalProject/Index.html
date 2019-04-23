@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
+          asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+          asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+
+    <title>
+        Wordbase - Home
+    </title>
+    <link rel="icon" href="Images/logo3.jpg">
+
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.min.js"
+            asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+            asp-fallback-test="window.jQuery"
+            crossorigin="anonymous"
+            integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT">
+    </script>
+    <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+            asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+            asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+            crossorigin="anonymous"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+    </script>
+    <script src="~/js/site.min.js" asp-append-version="true"></script>
+
+</head>
+<body>
+
+    <!--Nav bar-->
+    <nav class="navbar navbar-inverse navbar-fixed-top dictionarNavBar">
+        <div class="container dictionarNavBarContainer">
+            <div class="navbar-header">
+                <a class="navbar-brand dictionaryBrand" href="Index.html"><img class="logoimg" src="Images/logo3.jpg" /></a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dictionary <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../Pages/DictionaryWebService.aspx">Find in a General Dictionary</a></li>
+                            <li><a href="../Pages/FindInDictionary.aspx">Find in a Specific Dictionary</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../Pages/LanguageTranslator.aspx">Language Translator</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <img class="bgimg" src="Images/bg2.jpg" />
+    <div class="content-div" id="content">
+        <div class="col-sm-3 col-md-6">
+            <h2>Dictionary</h2>
+            <p>
+                A dictionary, sometimes known as a wordbook, is a collection of words in one or more specific languages,
+                often arranged alphabetically (or by radical and stroke for ideographic languages). It may include information on:
+                <ul>
+                    <li>definitions</li>
+                    <li>usage</li>
+                    <li>etymologies</li>
+                    <li>pronunciations</li>
+                    <li>translation</li>
+                </ul>
+            </p>
+            <p>We provide 2 options below to find definitions from:</p>
+            <ul>
+                <li><a href="../Pages/DictionaryWebService.aspx">General Dictionary</a></li>
+                <li><a href="../Pages/FindInDictionary.aspx">    Specific Dictionary</a></li>
+            </ul>
+
+        </div>
+    </div>
+    <div id="content" style="padding-left:50px">
+        <div class="col-sm-9 col-md-6">
+            <h2>Translator</h2>
+            <p>
+                Translation is the communication of the meaning of a source-language text by means of an equivalent target-language text. <br />
+                The English language draws a terminological distinction (not all languages do) between translating (a written text)
+                and interpreting (oral or sign-language communication between users of different languages); under this distinction,
+                translation can begin only after the appearance of writing within a language community.
+            </p>
+            <p>To start translation visit here:</p>
+            <ul>
+                <li><a href="../Pages/LanguageTranslator.aspx">Language Translator</a></li>
+            </ul>
+
+        </div>
+    </div>
+</body>
+</html>

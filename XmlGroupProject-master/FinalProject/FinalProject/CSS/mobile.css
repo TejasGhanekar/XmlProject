@@ -1,0 +1,43 @@
+	@media (max-width: 768px){
+		.change{
+			height: 100%;
+ 			float: right;
+ 			margin: 15px;
+ 		}
+	}
+ 	
+	.container{
+		background-color: #2e2e2e;
+	}
+	.container-body{
+		background-color: white;
+	}
+	.navbar-header > a{
+		margin: 15px;
+		font-size: 20px;
+		text-align: center;
+	}
+	a{
+		color: #ccc;
+	}
+	.nav>li>a:hover{
+		background-color: #2e2e2e;
+		color: white;
+	}
+	.navbar-collapse > ul >li{
+		
+	}
+	.navbar-header > a{
+		float:left;
+	}
+	.navbar-header > a:hover{
+		text-decoration:none;
+		background-color: #2e2e2e;
+	}
+	.div_info{
+		height: auto;
+		padding: 15px; 
+	}
+	.btn-type{
+		font-size: 24px;
+	}
